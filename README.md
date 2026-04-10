@@ -1,8 +1,8 @@
 # A-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS
 
 # How to run?
-### steps:
 
+# steps:
 clone the repository
 
 ```bash
@@ -20,13 +20,12 @@ conda activate medibot
 ```
 
 ## step 02 - install the requirements
-```bash
 
+```bash
 pip install -r requirements.txt
 ```
 
-
-
+## tech stack
 
 ```bash
 - python
@@ -35,18 +34,15 @@ pip install -r requirements.txt
 - pineCone as my vector database
 - flask for back and front development
 - aws for the deployment -> CI / CD
+```
 
-steps 
+## steps in general
 
+```bash
 1 - github repository
 2 - project template 
 3 - project setup
 4 - notebook Eap
 5 - modular code 
 6 - web app
-
-
-
-
-
 ```
