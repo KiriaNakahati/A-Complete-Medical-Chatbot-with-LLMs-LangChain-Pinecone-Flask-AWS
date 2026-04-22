@@ -1,5 +1,13 @@
 # A-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS
 
+## Project Overview
+
+This project is an end-to-end Medical Chatbot built using Large Language Models, designed to answer health-related questions in a conversational and intelligent way. The system leverages a Retrieval-Augmented Generation approach, combining semantic search with generative AI to provide accurate and context-aware responses.
+
+The chatbot integrates multiple modern technologies: LangChain is used to orchestrate the LLM pipeline, Pinecone serves as a vector database for efficient similarity search over medical knowledge, and Flask provides a lightweight web interface for user interaction. The application is designed to be scalable and production-ready, with support for deployment on AWS using containerization and CI/CD workflows.
+
+Users can ask medical questions in natural language, and the chatbot retrieves relevant information from a knowledge base before generating responses, improving reliability compared to purely generative models. This project demonstrates how to build a full-stack AI application, combining machine learning, backend development, and cloud deployment in a healthcare-focused use case.
+
 # How to run?
 
 # steps:
@@ -8,11 +16,16 @@ clone the repository
 ```bash
 Project repo: git clone https://github.com/KiriaNakahati/A-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS.git
 ```
+### tools: 
+```bash 
+1. You will need to install Anaconda as a package manager: https://www.anaconda.com/download
+2. Configure it so it appears in the PowerShell of your VS Code: after installation -> search for Anaconda Prompt -> run "conda init powershell"
+```
 
 ### step 01- create a conda enviroment after opening the repository
 
 ```bash
-conda create -n medibot python= 3.10 -y
+conda create -n medibot python=3.10 -y
 ```
 
 ```bash
