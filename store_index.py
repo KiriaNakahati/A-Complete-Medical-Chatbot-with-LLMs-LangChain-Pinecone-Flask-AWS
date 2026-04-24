@@ -14,7 +14,7 @@ os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 
 extracted_data = load_pdf_files(
-    "C:/Users/kiria/OneDrive/Desktop/PROJETOS/A-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS/data"
+    os.getenv("PATH_DATA")
 )
 minimal_docs = filter_to_minimal_docs(extracted_data)
 text_chunk = text_split(minimal_docs)
